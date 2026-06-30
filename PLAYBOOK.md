@@ -381,7 +381,7 @@ The catalog code uses window globals (`THREE`, `gsap`, `PIXI`…). In Next.js, i
 | Splitting / SplitType / Typed / Vivus | default import from `splitting` / `split-type` / `typed.js` / `vivus` |
 | Lottie | `import lottie from 'lottie-web'` |
 
-(This mapping is proven in the `design-library-gallery` Vite app's `src/libs.js`.)
+(This mapping is proven in the `motion-library-gallery` Vite app's `src/libs.js`.)
 
 ### 4.5 GSAP + ScrollTrigger in Next.js
 Register plugins inside `useEffect` (client only). Use `gsap.context(() => {...}, ref)` and

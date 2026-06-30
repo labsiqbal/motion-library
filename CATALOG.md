@@ -2,7 +2,7 @@
 
 The **AI-facing index** of every effect in the library. Use it to discover, verify, and pick —
 then grab the runnable code from **`galeri.html`** (search the effect's `id` in `data-fx="<id>"`)
-or the Vite app `design-library-gallery/`. This file is the *map*; `galeri.html` is the *code*.
+or the Vite app `motion-library-gallery/`. This file is the *map*; `galeri.html` is the *code*.
 
 Each entry: **Name** `id` — *istilah* · when-to-use `[library]`. A ⭐ marks a **signature**
 effect (the long-tail that gives a page character — rotate these per PLAYBOOK §0.5); unmarked
