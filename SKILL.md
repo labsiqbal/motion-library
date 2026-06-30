@@ -1,5 +1,5 @@
 ---
-name: design-library
+name: motion-library
 description: Curated, growing library of web ANIMATION/MOTION effects (named + moodtagged + paste-ready code) PLUS a Next.js application playbook that maps UI context → effect. Solves "you must name the effect to summon it", "motion can't be screenshotted", and "how does the AI know which animation goes where". Use when designing a UI that should feel alive — landing pages, hero sections, micro-interactions, scroll effects, text animation, WebGL/three.js, loaders, or composing a whole page's motion. Pairs with builder skills (impeccable, claude-design); this skill PROVIDES the motion vocabulary + code + where-to-use guidance, it does not build the page.
 version: 0.11.0
 author: Iqbal + Kuya agents
@@ -11,7 +11,7 @@ metadata:
     related_skills: [impeccable, claude-design, popular-web-designs, design-md]
 ---
 
-# design-library — motion effects, named and ready
+# motion-library — motion effects, named and ready
 
 This skill is a **data provider, not a builder.** It hands a builder (impeccable,
 claude-design, or you directly) a curated catalog of web *animation* effects, each

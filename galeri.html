@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>design-library · galeri animasi</title>
+<title>motion-library · galeri animasi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
@@ -910,7 +910,7 @@ footer{text-align:center;color:var(--faint);font-size:13px;padding:40px 0 60px;b
 <body>
 <div class="wrap">
 <header>
-  <p class="kicker">design-library · v0.11 · 217 efek</p>
+  <p class="kicker">motion-library · v0.11 · 217 efek</p>
   <h1>Galeri <span class="grad">Animasi</span> Web</h1>
   <p class="sub">Tiap efek punya <b>nama</b> (biar bisa diminta) dan jalan <b>live</b> di sini (biar bisa dilihat). Hover / klik / scroll buat ngerasain. Vanilla, GSAP, sama three.js.</p>
   <div class="legend">
@@ -2854,7 +2854,7 @@ function toggle(e){ const set=()=>root.classList.toggle('dark');
 </div>
 </div>
 
-<footer>design-library · galeri animasi v0.11 · 217 efek — tumbuh terus. Kurasi: Iqbal.</footer>
+<footer>motion-library · galeri animasi v0.11 · 217 efek — tumbuh terus. Kurasi: Iqbal.</footer>
 
 <!-- Libraries are lazy-loaded on demand by ensureDeps() — opening the page loads none of them. -->
 <script>
@@ -4417,7 +4417,7 @@ init('frame-scrub',el=>{ const canvas=$('canvas',el); if(!canvas)return;
   (function loop(){ p+=0.005; if(p>=1)p-=1; paint(Math.min(N-1,Math.floor(p*N))); requestAnimationFrame(loop); })(); });
 
 applyFilter();
-console.log('design-library galeri: %d efek dimuat',$$('.fx').length);
+console.log('motion-library galeri: %d efek dimuat',$$('.fx').length);
 /* ===== v0.11 INITS — UI Transitions + view-transitions (the 4 scroll-driven cards are pure CSS) ===== */
 init('tab-slide',d=>{ const tabs=[...d.querySelectorAll('.tb')],ind=$('.ind',d),panel=$('.panel',d);
   const txt=['Tahap sketsa — garis kasar.','Tahap render — warna & cahaya.','Final — siap kirim.'];

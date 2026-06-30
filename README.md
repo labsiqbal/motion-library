@@ -1,4 +1,4 @@
-# design-library
+# motion-library
 
 A curated, growing library of web **animation / motion** effects — each named, mood-tagged, and shipped with paste-ready code — plus a Next.js application playbook that maps UI context → effect.
 

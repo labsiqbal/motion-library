@@ -1,4 +1,4 @@
-# CATALOG.md — design-library effects index (all 202)
+# CATALOG.md — motion-library effects index (all 202)
 
 The **AI-facing index** of every effect in the library. Use it to discover, verify, and pick —
 then grab the runnable code from **`galeri.html`** (search the effect's `id` in `data-fx="<id>"`)
